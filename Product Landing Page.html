@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<main>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Public Domain Product Landing Page</title>
+
+    <style>
+        main{
+            background-color: rgb(0, 179, 179);
+        }
+    
+        #nav-bar{
+            display: flex;
+            background-color: silver;
+            color: black;
+            justify-content: space-around;
+            margin:center ;
+            flex-direction: row;
+        }
+
+        @media only screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+}
+
+        #products{
+            display: flex;
+            color: black;
+            justify-content: space-around;
+            margin:center ;
+        }
+
+        .nav-link{
+            list-style-type: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-link , list-item{
+            display: inline-block;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        #header-img{
+            width: 90px;
+            margin: left;
+        }
+
+        #box1{
+            display: flex;
+            background-color: darkorange;
+            border-radius: 10%;
+            width: auto;
+        }
+
+        #box2{
+            display: flex;
+            background-color: deeppink;
+            border-radius: 10%;
+            width: auto;
+        }
+
+        #box3{
+            display: flex;
+            background-color: dodgerblue;
+            border-radius: 10%;
+            width: auto;
+        }
+
+        nav{
+            float: right;
+            font-family: fantasy;
+        }
+
+        body{
+            margin: 0px;
+        }
+
+
+    </style>
+
+</head>
+
+<header id="header">
+    <h1 id="title">Public Domain Product Landing Page</h1>
+    <div id="nav-bar">
+        <img id="header-img" src="https://publicdomainvectors.org/photos/1489954061.png">
+
+            <nav id="nav-bar">
+                <ul class="nav-link">
+                    <li><a href="#video"> Walking Chair Video </a></li>
+                    <li><a href="#email"> Email Submission </a></li>
+                    <li><a href="#products"> Products </a></li>
+
+                </ul>
+            </nav>
+    </div>
+<br>
+<br>
+<br>
+        <div id="video-div">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QKXUrC0oRoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <form id="form">
+            <label for="email" id="email-label"><b>Email:</b></label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+            <input id="submit" type="submit" name="submit" value="Submit">
+        </form>
+<br>
+<br>
+<br>
+        <div id="products">
+            <div id="box1" class="product">
+                <iframe width="320" height="315" src="https://www.youtube.com/embed/gvl3Y00ahS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                Tape, as a data storage medium in computers, is a technology that is over 60 years old and was first used to backup data from a Univac I system back in 1951. It continued to be used to back up various large computer mainframe systems that replaced the Univac systems. From there tape based backup migrated to the distributed computing platform as proliferating PCs (Personal Computer) began to be networked together in order to share expensive disk space for storing the data they produced.
+            </div>
+
+            <div id="box2" class="product">
+                <iframe width="320" height="315" src="https://www.youtube.com/embed/CRQ_3_c3sm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                People test a new unsinkable boat designed to improve safety at sea. Various staged shots of a man falling out of a boat and other people pretending to be in difficulties in the sea. Various shots as people test out the new Dory boat made from fibreglass and polystyrene. It fills with water but does not sink, they try to tip it up but fail!
+            </div>
+
+            <div id="box3" class="product">
+                <iframe width="320" height="315" src="https://www.youtube.com/embed/MAlGjbCxY2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                Shots of small package of machinery being untangled to make it into a portable one man Dornier 32E-2 helicopter at Elgin Force Air Base with the pilot sitting in it all in about five minutes. Various air and ground shots of the West German designed True helicopter being put through its paces.
+            </div>
+
+        </div>
+        
+<br>
+<br>
+<br>
+ </header>
+
+<body>
+    
+</body>
+</main>
+</html>
